@@ -4,3 +4,4 @@
 .fighter img.portrait{height:210%;width:65%;object-fit:contain;object-position:center top}.fighter-info{background:linear-gradient(0deg,#15161aff 0%,#15161ad9 48%,transparent 100%)}.recording aside{max-height:calc(100dvh - var(--cam-h) - 160px);overflow:auto}.recording .workspace{align-items:start}
 @media(min-width:1201px){.recording #comparison,.recording .fighter{height:225px}.recording .tape-row{min-height:28px}.recording .tape-row .value{font-size:20px}}
 @media(min-width:1201px){.recording #comparison,.recording .fighter{height:clamp(155px,calc(100dvh - var(--cam-h) - 540px),225px)}}.recording:not(.notes-hidden) .notes{display:grid}.recording .fighter-name{max-width:95%}.recording .panel[hidden]{display:none}
+.setup{display:none!important}.workspace{margin-top:18px}
