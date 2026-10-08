@@ -1,0 +1,1095 @@
+{
+  "title": "UFC Fight Night: Allen vs Duncan",
+  "source": "https://cito.gg/ufc/events/ufc-fight-night-october-10-2026",
+  "date": "October 10, 2026",
+  "venue": "Meta APEX · Las Vegas",
+  "refreshedAt": "2026-10-08T20:18:10+00:00",
+  "fighters": {
+    "/ufc/fighters/brendan-allen": {
+      "id": "/ufc/fighters/brendan-allen",
+      "name": "Brendan Allen",
+      "country": "US",
+      "record": "27-7-0",
+      "nickname": "All In",
+      "age": 30.0,
+      "height": 74.0,
+      "reach": 75.0,
+      "weight": 186.0,
+      "stance": "Orthodox",
+      "finishRate": 74.0,
+      "strikeAccuracy": 52.0,
+      "takedownAccuracy": 4.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/ALLEN_BRENDAN_L_10-10.png?itok=Y3-yPnQk",
+      "source": "https://cito.gg/ufc/fighters/brendan-allen",
+      "recent": [
+        {
+          "result": "WIN",
+          "matchup": "ALLEN VS SHAHBAZYAN",
+          "date": "Jun 6, 2026",
+          "round": "3",
+          "time": "5:00",
+          "method": "U-DEC"
+        },
+        {
+          "result": "WIN",
+          "matchup": "ALLEN VS RIDDER",
+          "date": "Oct 18, 2025",
+          "round": "4",
+          "time": "5:00",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "WIN",
+          "matchup": "ALLEN VS VETTORI",
+          "date": "Jul 19, 2025",
+          "round": "3",
+          "time": "5:00",
+          "method": "U-DEC"
+        }
+      ]
+    },
+    "/ufc/fighters/christian-leroy-duncan": {
+      "id": "/ufc/fighters/christian-leroy-duncan",
+      "name": "Christian Leroy Duncan",
+      "country": "GB",
+      "record": "15-2-0",
+      "nickname": "CLD",
+      "age": 31.0,
+      "height": 74.0,
+      "reach": 79.0,
+      "weight": 185.0,
+      "stance": "Switch",
+      "finishRate": 73.0,
+      "strikeAccuracy": 58.0,
+      "takedownAccuracy": 20.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/DUNCAN_CHRISTIAN_LEROY_R_10-10.png?itok=UADdg6GJ",
+      "source": "https://cito.gg/ufc/fighters/christian-leroy-duncan",
+      "recent": [
+        {
+          "result": "WIN",
+          "matchup": "DUNCAN VS CANNONIER",
+          "date": "Jul 18, 2026",
+          "round": "3",
+          "time": "5:00",
+          "method": "U-DEC"
+        },
+        {
+          "result": "WIN",
+          "matchup": "DUNCAN VS DOLIDZE",
+          "date": "Mar 21, 2026",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - UNANIMOUS"
+        },
+        {
+          "result": "WIN",
+          "matchup": "DUNCAN VS TULIO",
+          "date": "Nov 8, 2025",
+          "round": "2",
+          "time": "3:20",
+          "method": "KO/TKO"
+        }
+      ]
+    },
+    "/ufc/fighters/matheus-camilo": {
+      "id": "/ufc/fighters/matheus-camilo",
+      "name": "Matheus Camilo",
+      "country": "BR",
+      "record": "11-3-0",
+      "nickname": "Jaguar",
+      "age": 25.0,
+      "height": 70.0,
+      "reach": 69.5,
+      "weight": 155.8,
+      "stance": "Orthodox",
+      "finishRate": 64.0,
+      "strikeAccuracy": 43.0,
+      "takedownAccuracy": 54.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/CAMILO_MATHEUS_L_10-10.png?itok=ng8vUA_b",
+      "source": "https://cito.gg/ufc/fighters/matheus-camilo",
+      "recent": [
+        {
+          "result": "WIN",
+          "matchup": "CAMILO VS SADYKHOV",
+          "date": "Jun 27, 2026",
+          "round": "1",
+          "time": "1:31",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "WIN",
+          "matchup": "CAMILO VS BORSHCHEV",
+          "date": "Nov 15, 2025",
+          "round": "3",
+          "time": "5:00",
+          "method": "U-DEC"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "CAMILO VS GREEN",
+          "date": "May 17, 2025",
+          "round": "2",
+          "time": "3:43",
+          "method": "SUBMISSION"
+        }
+      ]
+    },
+    "/ufc/fighters/jai-herbert": {
+      "id": "/ufc/fighters/jai-herbert",
+      "name": "Jai Herbert",
+      "country": "GB",
+      "record": "14-6-1",
+      "nickname": "Black Country Banger",
+      "age": 38.0,
+      "height": 73.0,
+      "reach": 77.0,
+      "weight": 156.0,
+      "stance": "Orthodox",
+      "finishRate": 79.0,
+      "strikeAccuracy": 42.0,
+      "takedownAccuracy": 21.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/HERBERT_JAI_R_10-10.png?itok=wFxaRyIa",
+      "source": "https://cito.gg/ufc/fighters/jai-herbert",
+      "recent": [
+        {
+          "result": "WIN",
+          "matchup": "HERBERT VS NALLO",
+          "date": "Apr 18, 2026",
+          "round": "1",
+          "time": "2:05",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "HERBERT VS PADILLA",
+          "date": "Mar 22, 2025",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - SPLIT"
+        },
+        {
+          "result": "WIN",
+          "matchup": "HERBERT VS BEDOYA",
+          "date": "Aug 3, 2024",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - UNANIMOUS"
+        }
+      ]
+    },
+    "/ufc/fighters/loopy-godinez": {
+      "id": "/ufc/fighters/loopy-godinez",
+      "name": "Loopy Godinez",
+      "country": "MX",
+      "record": "14-6-0",
+      "nickname": null,
+      "age": 33.0,
+      "height": 62.0,
+      "reach": 61.0,
+      "weight": 115.0,
+      "stance": "Orthodox",
+      "finishRate": 21.0,
+      "strikeAccuracy": 49.0,
+      "takedownAccuracy": 43.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/GODINEZ_LOOPY_L_10-10.png?itok=h4UQXf1K",
+      "source": "https://cito.gg/ufc/fighters/loopy-godinez",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "GODINEZ VS SUAREZ",
+          "date": "Apr 11, 2026",
+          "round": "2",
+          "time": "2:29",
+          "method": "SUBMISSION"
+        },
+        {
+          "result": "WIN",
+          "matchup": "GODINEZ VS ANDRADE",
+          "date": "Aug 16, 2025",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - UNANIMOUS"
+        },
+        {
+          "result": "WIN",
+          "matchup": "GODINEZ VS POLASTRI",
+          "date": "Mar 29, 2025",
+          "round": "3",
+          "time": "5:00",
+          "method": "U-DEC"
+        }
+      ]
+    },
+    "/ufc/fighters/ketlen-souza": {
+      "id": "/ufc/fighters/ketlen-souza",
+      "name": "Ketlen Souza",
+      "country": "BR",
+      "record": "17-6-0",
+      "nickname": "Esquentadinha",
+      "age": 32.0,
+      "height": 63.0,
+      "reach": 63.0,
+      "weight": 116.0,
+      "stance": "Orthodox",
+      "finishRate": 65.0,
+      "strikeAccuracy": 57.0,
+      "takedownAccuracy": 13.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/SOUZA_KETLEN_R_10-10.png?itok=bbuZc-66",
+      "source": "https://cito.gg/ufc/fighters/ketlen-souza",
+      "recent": [
+        {
+          "result": "WIN",
+          "matchup": "SOUZA VS CARNELOSSI",
+          "date": "Jun 6, 2026",
+          "round": "1",
+          "time": "1:34",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "WIN",
+          "matchup": "SOUZA VS BRASIL",
+          "date": "Feb 7, 2026",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - UNANIMOUS"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "SOUZA VS RODRIGUEZ",
+          "date": "Aug 2, 2025",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - SPLIT"
+        }
+      ]
+    },
+    "/ufc/fighters/andre-fili": {
+      "id": "/ufc/fighters/andre-fili",
+      "name": "Andre Fili",
+      "country": "US",
+      "record": "25-14-0 (1 NC)",
+      "nickname": "Touchy",
+      "age": 36.0,
+      "height": 71.0,
+      "reach": 74.0,
+      "weight": 146.0,
+      "stance": "Orthodox",
+      "finishRate": 52.0,
+      "strikeAccuracy": 38.0,
+      "takedownAccuracy": 46.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/FILI_ANDRE_L_10-10.png?itok=oAMyjBAO",
+      "source": "https://cito.gg/ufc/fighters/andre-fili",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "FILI VS OLIVEIRA",
+          "date": "Jun 20, 2026",
+          "round": "2",
+          "time": "4:56",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "FILI VS DELGADO",
+          "date": "Mar 14, 2026",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - SPLIT"
+        },
+        {
+          "result": "WIN",
+          "matchup": "FILI VS RODRIGUEZ",
+          "date": "Aug 9, 2025",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - SPLIT"
+        }
+      ]
+    },
+    "/ufc/fighters/kai-kamaka-iii": {
+      "id": "/ufc/fighters/kai-kamaka-iii",
+      "name": "Kai Kamaka III",
+      "country": "US",
+      "record": "18-8-1",
+      "nickname": "Da Fighting Hawaiian",
+      "age": 31.0,
+      "height": 67.0,
+      "reach": 69.0,
+      "weight": 144.5,
+      "stance": "Orthodox",
+      "finishRate": 22.0,
+      "strikeAccuracy": 59.0,
+      "takedownAccuracy": 54.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/KAMAKA_KAI_R_10-10.png?itok=76iakX5J",
+      "source": "https://cito.gg/ufc/fighters/kai-kamaka-iii",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "III VS RILEY",
+          "date": "Jul 11, 2026",
+          "round": "1",
+          "time": "3:03",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "WIN",
+          "matchup": "III VS HOPE",
+          "date": "Apr 4, 2026",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - SPLIT"
+        },
+        {
+          "result": "DRAW",
+          "matchup": "III VS CHAVEZ",
+          "date": "Jul 30, 2021",
+          "round": "3",
+          "time": "5:00",
+          "method": "M-DEC"
+        }
+      ]
+    },
+    "/ufc/fighters/malcolm-wellmaker": {
+      "id": "/ufc/fighters/malcolm-wellmaker",
+      "name": "Malcolm Wellmaker",
+      "country": "US",
+      "record": "10-2-0",
+      "nickname": "The Machine",
+      "age": 32.0,
+      "height": 70.0,
+      "reach": 71.5,
+      "weight": 143.6,
+      "stance": "Switch",
+      "finishRate": 80.0,
+      "strikeAccuracy": 55.0,
+      "takedownAccuracy": 0.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/WELLMAKER_MALCOM_L_10-10.png?itok=l6yncBbG",
+      "source": "https://cito.gg/ufc/fighters/malcolm-wellmaker",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "WELLMAKER VS DIAZ",
+          "date": "May 16, 2026",
+          "round": "2",
+          "time": "4:08",
+          "method": "SUB"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "WELLMAKER VS EWING",
+          "date": "Nov 15, 2025",
+          "round": "3",
+          "time": "5:00",
+          "method": "U-DEC"
+        },
+        {
+          "result": "WIN",
+          "matchup": "WELLMAKER VS MOUTINHO",
+          "date": "Jun 14, 2025",
+          "round": "1",
+          "time": "2:37",
+          "method": "KO/TKO"
+        }
+      ]
+    },
+    "/ufc/fighters/otari-tanzilovi": {
+      "id": "/ufc/fighters/otari-tanzilovi",
+      "name": "Otari Tanzilovi",
+      "country": "GE",
+      "record": "10-2-0",
+      "nickname": null,
+      "age": 28.0,
+      "height": 70.0,
+      "reach": null,
+      "weight": 134.5,
+      "stance": "Orthodox",
+      "finishRate": 70.0,
+      "strikeAccuracy": 69.0,
+      "takedownAccuracy": 0.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/TANZILOVI_OTARI_R_10-10.png?itok=45im3vKM",
+      "source": "https://cito.gg/ufc/fighters/otari-tanzilovi",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "TANZILOVI VS COLLINS",
+          "date": "Jun 20, 2026",
+          "round": "3",
+          "time": "5:00",
+          "method": "U-DEC"
+        }
+      ]
+    },
+    "/ufc/fighters/julius-walker": {
+      "id": "/ufc/fighters/julius-walker",
+      "name": "Julius Walker",
+      "country": "US",
+      "record": "7-3-0",
+      "nickname": "Juice Box",
+      "age": 27.0,
+      "height": 76.0,
+      "reach": 78.0,
+      "weight": 206.0,
+      "stance": "Orthodox",
+      "finishRate": 86.0,
+      "strikeAccuracy": 54.0,
+      "takedownAccuracy": 38.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/WALKER_JULIUS_L_10-10.png?itok=-vUH5sbY",
+      "source": "https://cito.gg/ufc/fighters/julius-walker",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "WALKER VS YAKHYAEV",
+          "date": "Jun 27, 2026",
+          "round": "1",
+          "time": "0:08",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "WALKER VS JACOBY",
+          "date": "Feb 7, 2026",
+          "round": "2",
+          "time": "1:42",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "WIN",
+          "matchup": "WALKER VS CERQUEIRA",
+          "date": "Aug 9, 2025",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - UNANIMOUS"
+        }
+      ]
+    },
+    "/ufc/fighters/gerald-meerschaert": {
+      "id": "/ufc/fighters/gerald-meerschaert",
+      "name": "Gerald Meerschaert",
+      "country": "US",
+      "record": "37-22-0",
+      "nickname": "GM3",
+      "age": 38.0,
+      "height": 73.0,
+      "reach": 77.5,
+      "weight": 185.6,
+      "stance": "Southpaw",
+      "finishRate": 95.0,
+      "strikeAccuracy": 45.0,
+      "takedownAccuracy": 29.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/MEERSCHAERT_GERALD_R_10-10.png?itok=kTi-RPfa",
+      "source": "https://cito.gg/ufc/fighters/gerald-meerschaert",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "MEERSCHAERT VS MALKOUN",
+          "date": "May 2, 2026",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - UNANIMOUS"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "MEERSCHAERT VS DAUKAUS",
+          "date": "Nov 15, 2025",
+          "round": "1",
+          "time": "0:50",
+          "method": "SUB"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "MEERSCHAERT VS OLEKSIEJCZUK",
+          "date": "Aug 16, 2025",
+          "round": "1",
+          "time": "3:03",
+          "method": "KO/TKO"
+        }
+      ]
+    },
+    "/ufc/fighters/francisco-prado": {
+      "id": "/ufc/fighters/francisco-prado",
+      "name": "Francisco Prado",
+      "country": "AR",
+      "record": "12-5-0",
+      "nickname": null,
+      "age": 24.0,
+      "height": 70.0,
+      "reach": 69.0,
+      "weight": 170.0,
+      "stance": "Orthodox",
+      "finishRate": 100.0,
+      "strikeAccuracy": 44.0,
+      "takedownAccuracy": 19.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/PRADO_FRANCISCO_L_10-10.png?itok=SwOS5TmC",
+      "source": "https://cito.gg/ufc/fighters/francisco-prado",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "PRADO VS RADTKE",
+          "date": "Apr 11, 2026",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - UNANIMOUS"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "PRADO VS VERETENNIKOV",
+          "date": "Jul 19, 2025",
+          "round": "3",
+          "time": "5:00",
+          "method": "S-DEC"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "PRADO VS MATTHEWS",
+          "date": "Feb 8, 2025",
+          "round": "3",
+          "time": "5:00",
+          "method": "U-DEC"
+        }
+      ]
+    },
+    "/ufc/fighters/ismael-bonfim": {
+      "id": "/ufc/fighters/ismael-bonfim",
+      "name": "Ismael Bonfim",
+      "country": "BR",
+      "record": "20-7-0",
+      "nickname": "Marreta",
+      "age": 30.0,
+      "height": 68.0,
+      "reach": 71.5,
+      "weight": 161.0,
+      "stance": "Orthodox",
+      "finishRate": 65.0,
+      "strikeAccuracy": 54.0,
+      "takedownAccuracy": 7.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/BONFIM_ISMAEL_R_10-10.png?itok=CK6pmt8t",
+      "source": "https://cito.gg/ufc/fighters/ismael-bonfim",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "BONFIM VS SOLA",
+          "date": "Jul 25, 2026",
+          "round": "1",
+          "time": "4:44",
+          "method": "SUB"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "BONFIM VS PADILLA",
+          "date": "Nov 8, 2025",
+          "round": "2",
+          "time": "4:30",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "BONFIM VS SADYKHOV",
+          "date": "Feb 15, 2025",
+          "round": "1",
+          "time": "5:00",
+          "method": "TKO - DOCTOR'S STOPPAGE"
+        }
+      ]
+    },
+    "/ufc/fighters/niko-price": {
+      "id": "/ufc/fighters/niko-price",
+      "name": "Niko Price",
+      "country": "US",
+      "record": "16-11-0",
+      "nickname": "The Hybrid",
+      "age": 36.0,
+      "height": 72.0,
+      "reach": 76.0,
+      "weight": 170.5,
+      "stance": "Orthodox",
+      "finishRate": 81.0,
+      "strikeAccuracy": 43.0,
+      "takedownAccuracy": 30.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/PRICE_NIKO_L_10-10.png?itok=O4iA06e2",
+      "source": "https://cito.gg/ufc/fighters/niko-price",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "PRICE VS CHIESA",
+          "date": "Mar 28, 2026",
+          "round": "1",
+          "time": "1:03",
+          "method": "SUBMISSION"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "PRICE VS VERETENNIKOV",
+          "date": "Feb 7, 2026",
+          "round": "1",
+          "time": "1:42",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "PRICE VS SMITH",
+          "date": "Jun 28, 2025",
+          "round": "2",
+          "time": "4:03",
+          "method": "SUB"
+        }
+      ]
+    },
+    "/ufc/fighters/leon-shahbazyan": {
+      "id": "/ufc/fighters/leon-shahbazyan",
+      "name": "Leon Shahbazyan",
+      "country": "AM",
+      "record": "12-5-0",
+      "nickname": "S.O.G.",
+      "age": 30.0,
+      "height": 76.0,
+      "reach": 77.0,
+      "weight": 171.0,
+      "stance": "Orthodox",
+      "finishRate": 100.0,
+      "strikeAccuracy": 52.0,
+      "takedownAccuracy": 0.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/SHAHBAZYAN_LEON_L_06-20.png?itok=0BDlzTa8",
+      "source": "https://cito.gg/ufc/fighters/leon-shahbazyan",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "SHAHBAZYAN VS CHOKHELI",
+          "date": "Jun 20, 2026",
+          "round": "1",
+          "time": "0:23",
+          "method": "KO/TKO"
+        }
+      ]
+    },
+    "/ufc/fighters/felipe-franco": {
+      "id": "/ufc/fighters/felipe-franco",
+      "name": "Felipe Franco",
+      "country": "BR",
+      "record": "11-2-0",
+      "nickname": "Negão",
+      "age": 25.0,
+      "height": 73.0,
+      "reach": null,
+      "weight": 204.0,
+      "stance": "Orthodox",
+      "finishRate": 100.0,
+      "strikeAccuracy": 57.0,
+      "takedownAccuracy": 0.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/FRANCO_FELIPE_R_03-21.png?itok=Pb4xswY2",
+      "source": "https://cito.gg/ufc/fighters/felipe-franco",
+      "recent": [
+        {
+          "result": "WIN",
+          "matchup": "FRANCO VS JR.",
+          "date": "Jul 18, 2026",
+          "round": "2",
+          "time": "1:40",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "FRANCO VS PINTO",
+          "date": "Mar 21, 2026",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - UNANIMOUS"
+        }
+      ]
+    },
+    "/ufc/fighters/brendson-ribeiro": {
+      "id": "/ufc/fighters/brendson-ribeiro",
+      "name": "Brendson Ribeiro",
+      "country": "BR",
+      "record": "17-11-0",
+      "nickname": "The Gorilla",
+      "age": 29.0,
+      "height": 75.0,
+      "reach": 81.0,
+      "weight": 206.0,
+      "stance": "Orthodox",
+      "finishRate": 94.0,
+      "strikeAccuracy": 40.0,
+      "takedownAccuracy": 0.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/RIBEIRO_BRENDSON_R_10-10.png?itok=b6HWwJaf",
+      "source": "https://cito.gg/ufc/fighters/brendson-ribeiro",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "RIBEIRO VS TUCHALOV",
+          "date": "Jul 25, 2026",
+          "round": "3",
+          "time": "5:00",
+          "method": "U-DEC"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "RIBEIRO VS YAKHYAEV",
+          "date": "Apr 4, 2026",
+          "round": "1",
+          "time": "2:52",
+          "method": "SUBMISSION"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "RIBEIRO VS SY",
+          "date": "Sep 6, 2025",
+          "round": "1",
+          "time": "4:42",
+          "method": "KO/TKO"
+        }
+      ]
+    },
+    "/ufc/fighters/allen-frye-jr": {
+      "id": "/ufc/fighters/allen-frye-jr",
+      "name": "Allen Frye Jr.",
+      "country": "US",
+      "record": "6-1-0",
+      "nickname": "AJ",
+      "age": 27.0,
+      "height": 77.0,
+      "reach": 80.5,
+      "weight": 242.0,
+      "stance": "Orthodox",
+      "finishRate": 100.0,
+      "strikeAccuracy": 38.0,
+      "takedownAccuracy": null,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/FRYE_JR_ALLEN_L_10-10.png?itok=L0ASo_Lj",
+      "source": "https://cito.gg/ufc/fighters/allen-frye-jr",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "JR. VS PAT",
+          "date": "Dec 13, 2025",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - UNANIMOUS"
+        }
+      ]
+    },
+    "/ufc/fighters/rj-harris": {
+      "id": "/ufc/fighters/rj-harris",
+      "name": "RJ Harris",
+      "country": "US",
+      "record": "6-0-0",
+      "nickname": "The Hammer",
+      "age": 27.0,
+      "height": 75.0,
+      "reach": 78.0,
+      "weight": 265.0,
+      "stance": "Orthodox",
+      "finishRate": 83.0,
+      "strikeAccuracy": 58.0,
+      "takedownAccuracy": null,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/HARRIS_RJ_R_10-10.png?itok=Hg_7Ol23",
+      "source": "https://cito.gg/ufc/fighters/rj-harris",
+      "recent": [
+        {
+          "result": "WIN",
+          "matchup": "HARRIS VS HINES",
+          "date": "Jul 18, 2026",
+          "round": "1",
+          "time": "1:40",
+          "method": "KO/TKO"
+        }
+      ]
+    },
+    "/ufc/fighters/alice-pereira": {
+      "id": "/ufc/fighters/alice-pereira",
+      "name": "Alice Pereira",
+      "country": "BR",
+      "record": "7-1-0",
+      "nickname": "Golden Girl",
+      "age": 20.0,
+      "height": 68.0,
+      "reach": 71.0,
+      "weight": 136.0,
+      "stance": "Orthodox",
+      "finishRate": 86.0,
+      "strikeAccuracy": 37.0,
+      "takedownAccuracy": 0.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/PEREIRA_ALICE_L_10-10.png?itok=ddxQHU0n",
+      "source": "https://cito.gg/ufc/fighters/alice-pereira",
+      "recent": [
+        {
+          "result": "WIN",
+          "matchup": "PEREIRA VS COWAN",
+          "date": "Apr 4, 2026",
+          "round": "2",
+          "time": "4:24",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "PEREIRA VS RENDON",
+          "date": "Sep 13, 2025",
+          "round": "3",
+          "time": "5:00",
+          "method": "S-DEC"
+        }
+      ]
+    },
+    "/ufc/fighters/dariya-zheleznyakova": {
+      "id": "/ufc/fighters/dariya-zheleznyakova",
+      "name": "Daria Zhelezniakova",
+      "country": "RU",
+      "record": "10-3-0",
+      "nickname": "Iron Lady",
+      "age": 30.0,
+      "height": 69.0,
+      "reach": 68.0,
+      "weight": 136.0,
+      "stance": "Orthodox",
+      "finishRate": 50.0,
+      "strikeAccuracy": 40.0,
+      "takedownAccuracy": 0.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/ZHELEZNIAKOVA_DARIA_R_10-10.png?itok=3XMXi52C",
+      "source": "https://cito.gg/ufc/fighters/dariya-zheleznyakova",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "ZHELEZNIAKOVA VS CRODEN",
+          "date": "Apr 18, 2026",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - UNANIMOUS"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "ZHELEZNIAKOVA VS PEREZ",
+          "date": "Sep 28, 2024",
+          "round": "1",
+          "time": "3:52",
+          "method": "SUBMISSION"
+        },
+        {
+          "result": "WIN",
+          "matchup": "ZHELEZNIAKOVA VS RENDON",
+          "date": "Mar 22, 2024",
+          "round": "3",
+          "time": "5:00",
+          "method": "U-DEC"
+        }
+      ]
+    },
+    "/ufc/fighters/ernesta-kareckaite": {
+      "id": "/ufc/fighters/ernesta-kareckaite",
+      "name": "Ernesta Kareckaitė",
+      "country": "LT",
+      "record": "6-2-1",
+      "nickname": "Heavy-Handed",
+      "age": 28.0,
+      "height": 69.0,
+      "reach": 71.0,
+      "weight": 126.0,
+      "stance": "Orthodox",
+      "finishRate": 33.0,
+      "strikeAccuracy": 42.0,
+      "takedownAccuracy": 20.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/KARECKAITE_ERNESTA_L_10-10.png?itok=jsuDSOw2",
+      "source": "https://cito.gg/ufc/fighters/ernesta-kareckaite",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "KARECKAITĖ VS TARIN",
+          "date": "Feb 28, 2026",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - UNANIMOUS"
+        },
+        {
+          "result": "WIN",
+          "matchup": "KARECKAITĖ VS CALIARI",
+          "date": "Jan 11, 2025",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - SPLIT"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "KARECKAITĖ VS BARBOSA",
+          "date": "May 4, 2024",
+          "round": "3",
+          "time": "5:00",
+          "method": "U-DEC"
+        }
+      ]
+    },
+    "/ufc/fighters/melissa-gatto": {
+      "id": "/ufc/fighters/melissa-gatto",
+      "name": "Melissa Gatto",
+      "country": "BR",
+      "record": "9-3-2",
+      "nickname": null,
+      "age": 30.0,
+      "height": 65.0,
+      "reach": 69.0,
+      "weight": 134.5,
+      "stance": "Orthodox",
+      "finishRate": 78.0,
+      "strikeAccuracy": 50.0,
+      "takedownAccuracy": 27.0,
+      "image": "https://ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/GATTO_MELISSA_R_10-10.png?itok=MjpMvdlo",
+      "source": "https://cito.gg/ufc/fighters/melissa-gatto",
+      "recent": [
+        {
+          "result": "LOSS",
+          "matchup": "GATTO VS BARBOSA",
+          "date": "Apr 4, 2026",
+          "round": "3",
+          "time": "5:00",
+          "method": "DECISION - MAJORITY"
+        },
+        {
+          "result": "WIN",
+          "matchup": "GATTO VS VIDAL",
+          "date": "May 18, 2024",
+          "round": "3",
+          "time": "0:37",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "LOSS",
+          "matchup": "GATTO VS SILVA",
+          "date": "Jun 30, 2023",
+          "round": "3",
+          "time": "5:00",
+          "method": "S-DEC"
+        }
+      ]
+    }
+  },
+  "bouts": [
+    {
+      "id": "/ufc/bouts/uuid-a9eef98a-ba21-4fcb-95d5-cf3c7312411f/brendan-allen-vs-christian-leroy-duncan",
+      "order": 0,
+      "group": "Main Card",
+      "weightClass": "Middleweight",
+      "mainEvent": true,
+      "fighters": [
+        "/ufc/fighters/brendan-allen",
+        "/ufc/fighters/christian-leroy-duncan"
+      ]
+    },
+    {
+      "id": "/ufc/bouts/13160/matheus-camilo-vs-jai-herbert",
+      "order": 1,
+      "group": "Main Card",
+      "weightClass": "Lightweight",
+      "mainEvent": false,
+      "fighters": [
+        "/ufc/fighters/matheus-camilo",
+        "/ufc/fighters/jai-herbert"
+      ]
+    },
+    {
+      "id": "/ufc/bouts/13161/loopy-godinez-vs-ketlen-souza",
+      "order": 2,
+      "group": "Main Card",
+      "weightClass": "Women's Strawweight",
+      "mainEvent": false,
+      "fighters": [
+        "/ufc/fighters/loopy-godinez",
+        "/ufc/fighters/ketlen-souza"
+      ]
+    },
+    {
+      "id": "/ufc/bouts/13162/andre-fili-vs-kai-kamaka-iii",
+      "order": 3,
+      "group": "Main Card",
+      "weightClass": "Featherweight",
+      "mainEvent": false,
+      "fighters": [
+        "/ufc/fighters/andre-fili",
+        "/ufc/fighters/kai-kamaka-iii"
+      ]
+    },
+    {
+      "id": "/ufc/bouts/13164/malcolm-wellmaker-vs-otari-tanzilovi",
+      "order": 4,
+      "group": "Main Card",
+      "weightClass": "Bantamweight",
+      "mainEvent": false,
+      "fighters": [
+        "/ufc/fighters/malcolm-wellmaker",
+        "/ufc/fighters/otari-tanzilovi"
+      ]
+    },
+    {
+      "id": "/ufc/bouts/13163/julius-walker-vs-gerald-meerschaert",
+      "order": 5,
+      "group": "Prelims",
+      "weightClass": "Light Heavyweight",
+      "mainEvent": false,
+      "fighters": [
+        "/ufc/fighters/julius-walker",
+        "/ufc/fighters/gerald-meerschaert"
+      ]
+    },
+    {
+      "id": "/ufc/bouts/fight-night-october-10-2026-francisco-prado-ismael-bonfim/francisco-prado-vs-ismael-bonfim",
+      "order": 6,
+      "group": "Prelims",
+      "weightClass": "Lightweight",
+      "mainEvent": false,
+      "fighters": [
+        "/ufc/fighters/francisco-prado",
+        "/ufc/fighters/ismael-bonfim"
+      ]
+    },
+    {
+      "id": "/ufc/bouts/fight-night-october-10-2026-leon-shahbazyan-niko-price/niko-price-vs-leon-shahbazyan",
+      "order": 7,
+      "group": "Prelims",
+      "weightClass": "Welterweight",
+      "mainEvent": false,
+      "fighters": [
+        "/ufc/fighters/niko-price",
+        "/ufc/fighters/leon-shahbazyan"
+      ]
+    },
+    {
+      "id": "/ufc/bouts/fight-night-october-10-2026-brendson-ribeiro-felipe-franco/felipe-franco-vs-brendson-ribeiro",
+      "order": 8,
+      "group": "Prelims",
+      "weightClass": "Light Heavyweight",
+      "mainEvent": false,
+      "fighters": [
+        "/ufc/fighters/felipe-franco",
+        "/ufc/fighters/brendson-ribeiro"
+      ]
+    },
+    {
+      "id": "/ufc/bouts/fight-night-october-10-2026-allen-frye-jr-rj-harris/allen-frye-jr-vs-rj-harris",
+      "order": 9,
+      "group": "Prelims",
+      "weightClass": "Heavyweight",
+      "mainEvent": false,
+      "fighters": [
+        "/ufc/fighters/allen-frye-jr",
+        "/ufc/fighters/rj-harris"
+      ]
+    },
+    {
+      "id": "/ufc/bouts/fight-night-october-10-2026-alice-pereira-dariya-zheleznyakova/alice-pereira-vs-dariya-zheleznyakova",
+      "order": 10,
+      "group": "Prelims",
+      "weightClass": "Women's Bantamweight",
+      "mainEvent": false,
+      "fighters": [
+        "/ufc/fighters/alice-pereira",
+        "/ufc/fighters/dariya-zheleznyakova"
+      ]
+    },
+    {
+      "id": "/ufc/bouts/fight-night-october-10-2026-ernesta-kareckaite-melissa-gatto/ernesta-kareckaite-vs-melissa-gatto",
+      "order": 11,
+      "group": "Prelims",
+      "weightClass": "Women's Flyweight",
+      "mainEvent": false,
+      "fighters": [
+        "/ufc/fighters/ernesta-kareckaite",
+        "/ufc/fighters/melissa-gatto"
+      ]
+    }
+  ]
+}
