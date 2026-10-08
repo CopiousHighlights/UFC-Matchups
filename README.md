@@ -1,6 +1,6 @@
 # UFC Matchups
 
-A personal predictions desk for **UFC Fight Night: Allen vs Duncan**, designed for recording a YouTube breakdown in OBS at 1920 × 1080.
+A personal predictions desk for **UFC Fight Night: Allen vs Duncan**, designed for recording a YouTube breakdown in OBS at 1920 × 1080. The current design is the approved full-page Central Stats Desk: large source portraits, an aligned central tape, a red/blue arena background, and a horizontal card navigator.
 
 ## Features
 
@@ -15,9 +15,9 @@ A personal predictions desk for **UFC Fight Night: Allen vs Duncan**, designed f
 
 ## Recording
 
-Open the site in a desktop browser at 1920 × 1080, select **Recording Mode**, and add your camera as a separate OBS source. Medium / bottom right reserves exactly **380 × 300 pixels**, beginning at x=1540, y=780. Hide the guide when ready to record. Put the browser at 100% zoom for matching pixel dimensions.
+Open the site in a desktop browser at 1920 × 1080 and 100% zoom. The approved full-page redesign replaces the earlier camera reservation and hidden recording settings, filling the viewport with the matchup and bottom navigation. It does not request webcam access. A separate camera overlay is positioned in OBS by the user.
 
-The comparison sits in a clipped, scrollable safe stage above a bottom-corner reservation or below a top-corner reservation. It reserves a horizontal strip as well as the actual camera rectangle, giving predictable protection when scrolling, switching fights, and opening My Picks. The card navigator scrolls independently. Essential portraits, tape, and prediction controls fit together at 1080p for all three camera sizes. Smaller screens can scroll within the safe stage.
+All 12 bouts remain available in the horizontally scrollable Main Card / Prelims ribbon. Previous/Next and arrow keys move between them. Predictions, recent fights, and source details are in an expandable section below the first screen. Mobile uses paired portraits above the central tape. The generated arena contains no people; all fighter pictures remain the original source URLs.
 
 ## Data provenance
 

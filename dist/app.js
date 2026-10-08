@@ -2,6 +2,7 @@
 const $=id=>document.getElementById(id), KEY='ufc-matchups:allen-duncan-2026:picks:v1', SETTINGS='ufc-matchups:recording:v1';
 let event, index=0, metric=false, picks={}, settings={recording:false,corner:'bottom-right',size:'medium',guide:true,notes:true}, returnFocus;
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const tapeSection=document.querySelector('.tape');
 const missing='Not available', validImage=url=>{try{return ['https:','http:'].includes(new URL(url).protocol)}catch{return false}};
 const countryNames={US:'United States',GB:'United Kingdom',BR:'Brazil',MX:'Mexico',GE:'Georgia',AR:'Argentina',AM:'Armenia',RU:'Russia',LT:'Lithuania'};
 const silhouette='<svg class="silhouette" viewBox="0 0 220 300" aria-hidden="true"><circle cx="110" cy="65" r="42" fill="#8a909b"/><path d="M20 300V210C20 135 55 117 110 117s90 18 90 93v90Z" fill="#8a909b"/></svg>';
@@ -9,6 +10,7 @@ function read(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fa
 picks=read(KEY,{});if(!picks||typeof picks!=='object'||Array.isArray(picks))picks={};settings={...settings,...read(SETTINGS,{})};
 function save(){try{localStorage.setItem(KEY,JSON.stringify(picks));$('save-status').textContent='Picks saved on this browser'}catch{$('save-status').textContent='Storage unavailable — download your picks'}}
 function applySettings(){
+ settings.recording=false;
  if(!['small','medium','large'].includes(settings.size))settings.size='medium';
  if(!['bottom-right','bottom-left','top-right','top-left'].includes(settings.corner))settings.corner='bottom-right';
  const [w,h]={small:[320,240],medium:[380,300],large:[480,360]}[settings.size];
@@ -37,6 +39,7 @@ function render(){
  const b=bout(),[a,z]=b.fighters.map(id=>event.fighters[id]);
  $('bout-label').textContent=b.mainEvent?'MAIN EVENT · HEADLINER':b.group.toUpperCase();$('division').textContent=b.weightClass||missing;$('bout-position').textContent=`BOUT ${index+1} / ${event.bouts.length}`;$('previous').disabled=index===0;$('next').disabled=index===event.bouts.length-1;
  $('comparison').innerHTML=fighterHtml(a,0)+`<div class="vs-block"><div class="vs">VS</div><small>${escape(b.weightClass)}</small><small>${b.mainEvent?'THE MAIN EVENT':escape(b.group.toUpperCase())}</small><a href="${escape(a.source)}" target="_blank" rel="noopener">Red profile ↗</a><a href="${escape(z.source)}" target="_blank" rel="noopener">Blue profile ↗</a></div>`+fighterHtml(z,1);
+ document.querySelector('.vs-block').append(tapeSection);
  document.querySelectorAll('.fighter').forEach(el=>{const img=el.querySelector('.portrait');if(!img)el.classList.add('missing-photo');else{const failed=()=>el.classList.add('missing-photo');img.addEventListener('error',failed);if(img.complete&&!img.naturalWidth)failed()}});
  const rows=[['Age',value(a.age,' years'),value(z.age,' years')],['Height',length(a.height),length(z.height),'height'],['Reach',length(a.reach,true),length(z.reach,true),'reach'],['Listed weight',weight(a.weight),weight(z.weight)],['Stance',value(a.stance),value(z.stance)]];
  $('tape-rows').innerHTML=rows.map(([label,av,zv,k])=>{let diff='';if(k&&a[k]!=null&&z[k]!=null){const delta=Math.abs(a[k]-z[k]);diff=delta?`${metric?(delta*2.54).toFixed(1)+' cm':+delta.toFixed(1)+' in'} difference`:'Equal dimensions'}return `<div class="tape-row"><span class="value red-value ${k&&a[k]>z[k]&&z[k]!=null?'dimension':''}">${av}</span><span class="label">${label}${diff?`<small class="difference">${diff}</small>`:''}</span><span class="value blue-value ${k&&z[k]>a[k]&&a[k]!=null?'dimension':''}">${zv}</span></div>`}).join('');
@@ -46,7 +49,7 @@ function render(){
  renderCard();
 }
 function updateRound(){const disabled=!$('method').value||$('method').value==='Decision';$('round').disabled=disabled;if(disabled)$('round').value=''}
-function navigate(i){if(!event||i<0||i>=event.bouts.length)return;index=i;render();$('main').scrollIntoView({block:'start',behavior:'instant'});if(settings.recording)$('safe-stage').scrollTop=0}
+function navigate(i){if(!event||i<0||i>=event.bouts.length)return;index=i;render();window.scrollTo({top:0,behavior:'instant'});document.querySelector('.fight-button.active')?.scrollIntoView({block:'nearest',inline:'nearest'});}
 function updatePick(){updateRound();const p={};['winner','method','round','confidence','notes'].forEach(k=>p[k]=$(k).value);if(p.winner&&!bout().fighters.includes(p.winner))p.winner='';picks[bout().id]=p;save();renderCard();$('pick-status').textContent=p.winner?'Saved locally':'No winner selected'}
 function load(data){event=validate(data);index=0;for(const b of event.bouts){if(picks[b.id]?.winner&&!b.fighters.includes(picks[b.id].winner))delete picks[b.id]}
  $('event-meta').textContent=`${event.date||missing} · ${event.venue||missing} · ${event.bouts.length} bouts`;$('source-link').href=event.source;$('refresh').textContent='Last successful source refresh: '+new Date(event.refreshedAt).toLocaleString();$('load-error').hidden=true;document.body.classList.remove('load-failed');render();
@@ -64,4 +67,5 @@ document.addEventListener('fullscreenchange',()=>$('fullscreen').setAttribute('a
 $('picks-open').onclick=openPicks;$('picks-close').onclick=closePicks;$('export-picks').onclick=()=>download({event:event.title,exportedAt:new Date().toISOString(),myPicks:summary()},'Allen-vs-Duncan-my-picks.json');
 document.addEventListener('keydown',e=>{if(!$('picks-panel').hidden){if(e.key==='Escape'){closePicks();e.preventDefault()}if(e.key==='Tab'){const focusable=[...$('picks-panel').querySelectorAll('button,a,input,select,textarea')];const first=focusable[0],last=focusable.at(-1);if(e.shiftKey&&document.activeElement===first){last.focus();e.preventDefault()}else if(!e.shiftKey&&document.activeElement===last){first.focus();e.preventDefault()}}return}if(e.target.closest('input,textarea,select,[contenteditable="true"]')||e.ctrlKey||e.altKey||e.metaKey)return;if(e.key==='ArrowLeft'){navigate(index-1);e.preventDefault()}if(e.key==='ArrowRight'){navigate(index+1);e.preventDefault()}});
 $('import-data').onchange=async()=>{try{const f=$('import-data').files[0];if(!f)return;load(JSON.parse(await f.text()));$('import-status').textContent='Source snapshot loaded'}catch(e){$('import-status').textContent=e.message}};
+const workspace=document.querySelector(".workspace"); workspace.append(document.querySelector("aside"),document.querySelector(".bout-toolbar")); const extras=document.createElement("details"); extras.className="extra-content"; extras.innerHTML="<summary>Predictions, recent fights & source details</summary>"; extras.append(document.querySelector(".prediction"),document.querySelector(".more"),document.querySelector("footer")); workspace.after(extras);
 applySettings();fetch('event.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('Source snapshot unavailable');return r.json()}).then(load).catch(e=>{document.body.classList.add('load-failed');$('load-error').hidden=false;$('event-meta').textContent=e.message});

@@ -23,3 +23,6 @@ Verified in a local in-app browser, using the rendered page and real controls.
 | Fullscreen | Control invokes browser Fullscreen API; embedded preview does not expose a granted fullscreen state. Browser-dependent fallback message is implemented. |
 
 The disposable QA pick was cleared and a subsequent refresh showed 0/12. No predictions are prepopulated in deployed source. External images can become unavailable after these checks, in which case the silhouette fallback applies.
+
+## Central Stats Desk redesign
+Verified all 12 bouts with both original photos loaded, five tape rows retained in the central column after each switch, and navigation ending exactly at y=1080 at 1920x1080. Arrow navigation passed. At 390x844 there was no horizontal document overflow. The approved full-page design supersedes the former camera-reservation geometry checks above. The arena background is generated scenery only; fighter photos are unchanged source images.
