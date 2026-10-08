@@ -5,3 +5,4 @@
 @media(min-width:1201px){.recording #comparison,.recording .fighter{height:225px}.recording .tape-row{min-height:28px}.recording .tape-row .value{font-size:20px}}
 @media(min-width:1201px){.recording #comparison,.recording .fighter{height:clamp(155px,calc(100dvh - var(--cam-h) - 540px),225px)}}.recording:not(.notes-hidden) .notes{display:grid}.recording .fighter-name{max-width:95%}.recording .panel[hidden]{display:none}
 .setup{display:none!important}.workspace{margin-top:18px}
+#picks-open,#recording{display:none!important}
